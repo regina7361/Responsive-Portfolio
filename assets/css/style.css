@@ -113,35 +113,6 @@ nav a:first-child {
     margin-right: 25px;
 }
 
-/*sidebar*/
-.sidebar {
-    background: #fff;
-    padding: 30px;
-    width: 100%;
-    max-width: 270px;
-    float: right;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-}
-
-h3, .sidebar, h2 {
-    border-bottom: 2px solid #eee;
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    line-height: 22px;
-}
-
-.social {
-    width: 62px;
-    height: 62px;
-    margin-top: 8px;
-    margin-right: 5px;
-}
-
-.social:last-child {
-    margin-right: 0;
-}
-
 /*footer*/
 
 footer {
@@ -153,9 +124,6 @@ footer {
     color: #ccc;
     font-size: 12px;
     text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 /*portfolio*/
@@ -229,4 +197,108 @@ input[type=submit] {
     font-size: 18px;
     padding: 10px 30px;
     cursor: pointer;    
+}
+
+/* MEDIA QUERIES */
+
+/* Small Screens*/
+@media screen and (max-width: 640px) {
+    main, body, .nav, .bio, container
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    footer
+    {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #masthead, #logo, nav
+    {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #main-container
+    {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #main-container
+    {
+        width: 98%
+    }
+}
+
+/* Medium Screens*/ 
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    main, body, .nav, .bio, .container, #main-container, .main-container, footer
+     {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    footer
+    {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    #logo
+    {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    nav
+    {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width: 768px) {
+    .main-container
+    {
+        margin-left: 50px;
+        margin-bottom: 300px;
+    }
+}
+
+/* Large Screens*/
+@media screen and (max-width: 980px) {
+    main, body, .nav, .bio, container
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    footer
+    {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #logo, .main-container
+    {
+        margin-left: 25px;
+    }
 }
