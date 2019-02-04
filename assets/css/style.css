@@ -252,7 +252,7 @@ input[type=submit] {
 @media screen and (min-width: 641px) and (max-width: 768px) {
     footer
     {
-        position: fixed;
+        position: static;
         bottom: 0;
     }
 }
@@ -275,19 +275,19 @@ input[type=submit] {
     .main-container
     {
         margin-left: 50px;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
     }
 }
 
 /* Large Screens*/
-@media screen and (max-width: 980px) {
+@media screen and (min-width:769px) and (max-width: 980px) {
     main, body, .nav, .bio, container
     {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width:769px) and (max-width: 980px) {
     footer
     {
         position: fixed;
@@ -296,7 +296,7 @@ input[type=submit] {
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width:769px) and (max-width: 980px) {
     #logo, .main-container
     {
         margin-left: 25px;
