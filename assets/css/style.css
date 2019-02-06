@@ -203,41 +203,29 @@ input[type=submit] {
 
 /* Small Screens*/
 @media screen and (max-width: 640px) {
-    main, body, .nav, .bio, container
+    main, body, .nav, .bio, container, .auth-image, .main-container img
     {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 640px) {
     footer
     {
-        position: fixed;
+        position: static;
         width: 100%;
         bottom: 0;
     }
-}
 
-@media screen and (max-width: 640px) {
     #masthead, #logo, nav
     {
         position: static;
         width: 100%;
         text-align: center;
     }
-}
 
-@media screen and (max-width: 640px) {
     #main-container
     {
         padding: 0px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    #main-container
-    {
-        width: 98%
+        width: 90%;
     }
 }
 
@@ -247,31 +235,23 @@ input[type=submit] {
      {
         width: 100%;
     }
-}
 
-@media screen and (min-width: 641px) and (max-width: 768px) {
     footer
     {
         position: static;
         bottom: 0;
     }
-}
 
-@media screen and (min-width: 641px) and (max-width: 768px) {
     #logo
     {
         margin-left: 20px;
     }
-}
 
-@media screen and (min-width: 641px) and (max-width: 768px) {
     nav
     {
         margin-right: 20px;
     }
-}
 
-@media screen and (min-width:641px) and (max-width: 768px) {
     .main-container
     {
         margin-left: 50px;
@@ -285,18 +265,14 @@ input[type=submit] {
     {
         width: 100%;
     }
-}
 
-@media screen and (min-width:769px) and (max-width: 980px) {
     footer
     {
         position: fixed;
         width: 100%;
         bottom: 0;
     }
-}
 
-@media screen and (min-width:769px) and (max-width: 980px) {
     #logo, .main-container
     {
         margin-left: 25px;
